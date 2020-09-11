@@ -177,7 +177,7 @@ hr {
 }
 
 input {
-  width: 30%;
+  width: auto;
   margin-bottom: 10px;
 }
 
