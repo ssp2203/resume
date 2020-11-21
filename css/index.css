@@ -32,19 +32,9 @@ h1 {
   margin-bottom: 16px;
 }
 
-h1:hover {
-  transform: rotateY(360deg);
-  transition: 2s;
-}
-
 h2 {
   font-family: 'Lobster', cursive;
   font-size: 40px;
-}
-
-h2:hover {
-  transform: rotateX(360deg);
-  transition: 1.2s;
 }
 
 h3, h4, h5, h6 {
@@ -94,8 +84,6 @@ a:hover {
 .navbar a:hover {
   background-color: #0f4c75;
   color: #eeeeee;
-  transform: rotate(-10deg);
-  transition: 0.5s;
 }
 
 hr {
@@ -143,7 +131,7 @@ hr {
 }
 
 .photo:hover {
-  transform: rotateY(360deg);
+  transform: scale(1.5);
   transition: 1.2s;
 }
 
@@ -177,7 +165,7 @@ hr {
 }
 
 input {
-  width: auto;
+  width: 50%;
   margin-bottom: 10px;
 }
 
